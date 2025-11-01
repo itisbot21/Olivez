@@ -1,0 +1,181 @@
+.body {
+    background-color: rgba(182, 182, 182, 0.1);
+}
+
+.first-row {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 25px;
+}
+
+.lame-ass-quote {
+    max-width: 680px;
+    font-size: 45px;
+    color: rgb(109, 109, 109);
+    font-weight: 550;
+}
+
+.products-list {
+    display: flex;
+    height: 180px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.product-img {
+    height: 100px;
+    width: 120px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 15px;
+}
+
+.mac-box:hover,
+.iphone-box:hover,
+.ipad-box:hover,
+.apple-watch-box:hover,
+.airpod-box:hover,
+.appletv-box:hover,
+.homepod-box:hover,
+.accessories-box:hover,
+.airtag-box:hover {
+    box-shadow: 1px 1px 10px rgb(168, 168, 168);
+    border-radius: 10px;
+    padding: 12px 12px 12px 12px;
+    cursor: pointer;
+
+}
+
+.mac-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+}
+
+.iphone-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.ipad-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.apple-watch-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.airpod-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.airtag-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.appletv-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.homepod-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.accessories-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+    transition: padding 0.3s;
+
+}
+
+.products-square {
+    display: flex;
+    height: 580px;
+    align-items: top;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 550;
+    color: rgb(72, 71, 71);
+}
+
+.cards {
+    height: 400px;
+    border-radius: 5%;
+    transition: height 0.30s;
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 10px rgb(197, 197, 197);
+
+}
+
+.cards:hover {
+    height: 410px;
+    box-shadow: 3px 4px 10px rgb(189, 189, 189);
+
+}
+
+.cards-scroll {
+    margin-left: 80px;
+}
+
+.text-above-cards {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
