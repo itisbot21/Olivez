@@ -1,0 +1,144 @@
+/* ---------- Reset ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, sans-serif;
+}
+
+/* ---------- Variables ---------- */
+:root {
+    --color: rgb(83, 162, 22);
+    --seccolor: rgb(168, 123, 173);
+}
+
+/* ---------- Body ---------- */
+body {
+    background-color: rgb(214, 224, 224);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ---------- Navigation Bar ---------- */
+nav {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    border-radius: 25px;
+    width: 70%;
+    justify-content: space-evenly;
+    padding: 14px 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav li {
+    list-style: none;
+    font-size: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+/* ---------- Main Container ---------- */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+    margin-top: 55px;
+}
+
+/* ---------- Animated Water Section ---------- */
+.box1 {
+    position: relative;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    transform: translateY(-120%);
+    animation: drop 1s ease-out forwards;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.box1 h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.box1 span {
+    color: rgb(67, 155, 13);
+}
+
+
+/* ---------- About Section ---------- */
+.box2 {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(59, 152, 1, 0.823);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.about-info h1 {
+    font-size: 24px;
+    padding: 60px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
