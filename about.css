@@ -1,0 +1,27 @@
+.about {
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    background-color: rgba(8, 172, 8, 0.907);
+    height: 70vh;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 3px #fff,
+        1px 1px 3px #fff;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.info h1 {
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+}

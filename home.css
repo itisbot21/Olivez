@@ -1,0 +1,21 @@
+.home {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    /* margin-top: 7vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+
+.home span {
+    color: rgb(8, 172, 8);
+}
+
+.home h1 {
+    color: #fff;
+}
+
+.box1 {
+    width: 80%;
+}

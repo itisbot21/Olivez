@@ -6,48 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olivez</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 
 <body>
 
-    <!-- ===== Header & Navigation ===== -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <!-- ===== Navigation ===== -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- ===== Main Content ===== -->
     <main>
-        <section class="container" id="home">
+
+        <section class="home" id="home">
+
             <div class="box1" id="intro">
+
                 <h1 class="name">
                     Hii, I'm <span>Kaifi</span>
                 </h1>
+
             </div>
-            <div class="box2">
-                <!-- <video src="mp4/Dance cat.mp4" controls></video> -->
-                <!-- <source src="" type="video/mp4"> -->
-            </div>
+
         </section>
 
-        <section class="container" id="about">
-            <div class="about-info">
+        <section class="about" id="about">
+
+            <div class="info">
+
                 <h1>
                     <span>Kaifi Azam Shaikh</span> (born June 28, 1971, in Pretoria, South Africa) is an entrepreneur,
                     engineer, and inventor known for founding and leading several groundbreaking technology companies.
                 </h1>
+
             </div>
+
         </section>
 
-        <section class="container" id="contact">
+        <section class="contact" id="contact">
+
             <div class="contact-box">
+
                 <div class="contact-text">
                     <h1>Get in Touch</h1>
                     <p>
@@ -64,18 +72,25 @@
                                         src="img/email.png" class="img" alt=""></a></li>
                         </ul>
                     </div>
+                    
                 </div>
 
-                <form action="" class="contact">
-                    <label for="">Your Name</label>
-                    <input type="text" class="contact-take">
-                    <label for="">Your Email</label>
-                    <input type="text" class="contact-take">
-                    <label for="">Your Message</label>
-                    <textarea name="Message" id="message" rows="5" cols="35" class="contact-take"></textarea>
-                    <input type="submit" value="Submit" class="btn">
-                </form>
+                <div class="fill-form">
+                    
+                    <form action="">
+                        <label for="">Your Name</label>
+                        <input type="text" class="contact-take">
+                        <label for="">Your Email</label>
+                        <input type="text" class="contact-take">
+                        <label for="">Your Message</label>
+                        <textarea name="Message" id="message" rows="5" cols="35" class="contact-take"></textarea>
+                        <input type="submit" value="Submit" class="btn">
+                    </form>
+
+                </div>
+
             </div>
+
         </section>
 
     </main>
