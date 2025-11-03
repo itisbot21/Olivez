@@ -78,3 +78,29 @@ form label {
     outline: none;
     border-radius: 5px;
 }
+
+@media only screen and (max-width:480px) {
+    .contact-box {
+        flex-direction: column;
+        height: 70%;
+    }
+    
+    .contact-text {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .contact-text h1 {
+        margin-bottom: 10px;
+    }
+
+    .fill-form {
+        width: 80%;
+        height: 60%;
+        margin-bottom: 20px;
+    }
+
+    .fill-form form {
+        padding: 1.5rem;
+    }
+}

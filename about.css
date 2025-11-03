@@ -10,7 +10,7 @@
 }
 
 .info {
-    background-color: rgba(8, 172, 8, 0.907);
+    background-color: rgba(6, 141, 6, 0.907);
     height: 70vh;
     border-radius: 25px;
     box-shadow: inset 1px 1px 3px #fff,
@@ -24,4 +24,13 @@
     font-size: 24px;
     width: 80%;
     margin: auto;
+    color: #fff;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:480px) {
+    .info h1 {
+        font-size: 16px;
+    }
 }
