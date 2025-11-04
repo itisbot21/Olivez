@@ -10,10 +10,12 @@
 
 .home span {
     color: rgb(8, 172, 8);
+    /* font-weight: 700; */
 }
 
 .home h1 {
     color: #fff;
+    font-weight: 600;
     /* text-shadow: 1px 1px 5px #ffffff57; */
 }
 
