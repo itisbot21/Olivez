@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 <body>
@@ -25,6 +26,7 @@
     <nav class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -35,15 +37,41 @@
 
         <section class="home" id="home">
 
-            <div class="box1" id="intro">
+            <div class="leftsection" id="intro">
 
-                <h1 class="name">
+                <h2 class="name">
                     Hii, I'm <span>Kaifi</span>
-                </h1>
+                </h2>
+                <h2>And I'm a Passionate</h2>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
 
             </div>
 
+            <div class="rightsection">
+                <img src="img/home-right2.avif" alt="">
+            </div>
+
         </section>
+
+        <section class="carousel" id="projects">
+            <div class="group">
+                <div class="card"><img src="img/pic-1.jpg" alt=""></div>
+                <div class="card"><img src="img/pic-2.avif" alt=""></div>
+                <div class="card"><img src="img/pic-3.avif" alt=""></div>
+                <div class="card"><img src="img/pic-4.jpg" alt=""></div>
+                <div class="card"><img src="img/pic-5.jpg" alt=""></div>
+            </div>
+            <div aria-hidden="" class="group">
+                <div class="card"><img src="img/pic-1.jpg" alt=""></div>
+                <div class="card"><img src="img/pic-2.avif" alt=""></div>
+                <div class="card"><img src="img/pic-3.avif" alt=""></div>
+                <div class="card"><img src="img/pic-4.jpg" alt=""></div>
+                <div class="card"><img src="img/pic-5.jpg" alt=""></div>
+            </div>
+        </section>
+
+        <!-- <hr> -->
 
         <section class="about" id="about">
 
@@ -106,6 +134,17 @@
         &copy; 2025 Olivez. All rights reserved.
     </footer>
 
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer'],
+            typeSpeed: 52,
+        });
+    </script>
 </body>
 
 </html>

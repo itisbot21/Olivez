@@ -9,6 +9,11 @@ body {
     background-color: #fff;
 }
 
+/* hr {
+    background-color: rgb(8, 172, 8);
+    height: 2px;
+} */
+
 footer {
     height: 10vh;
     background-color: #fff;

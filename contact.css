@@ -41,13 +41,16 @@
 
 .fill-form {
     width: 35%;
+    margin: 25px 0;
     background-color: #ffffff88;
     border-radius: 25px;
     box-shadow: inset 1px 1px 3px #fff,
-        1px 1px 3px #fff;
+    1px 1px 3px #fff;
 }
 
 .fill-form form {
+    /* height: 80%; */
+    /* margin: 25px auto; */
     display: flex;
     flex-direction: column;
     padding: 2rem;

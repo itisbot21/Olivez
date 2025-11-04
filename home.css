@@ -3,7 +3,7 @@
     height: 100vh;
     /* margin-top: 7vh; */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 34px;
 }
@@ -13,14 +13,35 @@
     /* font-weight: 700; */
 }
 
+.home h2 {
+    color: #fff;
+    /* font-weight: 500; */
+    /* margin-top: 8px; */
+}
+
 .home h1 {
     color: #fff;
     font-weight: 600;
     /* text-shadow: 1px 1px 5px #ffffff57; */
 }
 
-.box1 {
-    width: 80%;
+/* #element { */
+    /* color: #fff; */
+/* } */
+
+.leftsection {
+    width: 50%;
+}
+
+.rightsection {
+    width: 30%;
+}
+
+.rightsection img {
+    width: 100%;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin-top: 25px;
 }
 
 @media only screen and (max-width:480px) {
